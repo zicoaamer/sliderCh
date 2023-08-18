@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+/*Start Home*/
+.home{
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+}
+.home .overlay{
+    position: absolute;
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.home .sideClick{
+    cursor: pointer;
+}
+.home .home-content h1{
+    font-size: 60px;
+}
+.home .left-side .stayLeft {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    z-index: 999999;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -250px;
+    transition: 0.5s;
+    padding-top: 100px;
+    background-color: black;
+}
+.home .left-side .stayLeft a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 50px;
+    transition: 0.5s;
+    font-size: 24px;
+}
+.home .left-side .stayLeft a:hover {
+    color: rgba(214, 46, 51 , 0.4);
+}
+.home .left-side .stayLeft .closeNow {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/*End Home*/
+/*Start Accordion*/
+.goTop{
+    margin-top: -10px;
+}
+.accordion .one-section h3{
+    cursor: pointer;
+}
+.accordion .one-section p{
+    display: none;
+}
+/*End Accordion*/
+/*Start Count*/
+.count{
+    background-image: url("../images/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.count .overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.count .allCount{
+    padding: 30px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+/*End Count*/
+
+.social-list{
+    margin-top: 60px;
+    color: #777;
+}
+.social-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.fab:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
