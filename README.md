@@ -1,0 +1,2 @@
+# sliderCh
+Testing JQuery skills
